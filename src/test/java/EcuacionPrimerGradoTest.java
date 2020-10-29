@@ -1,7 +1,14 @@
+package src.test.java;
+
+import static org.junit.jupiter.api.Assertions.*;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import src.main.java.EcuacionPrimerGrado;
 
-public class EcuacionPrimerGradoIntegrationTest {
+
+class EcuacionPrimerGradoTest
+{
 
     EcuacionPrimerGrado ecuacion = new EcuacionPrimerGrado();
 
@@ -35,3 +42,4 @@ public class EcuacionPrimerGradoIntegrationTest {
         Assertions.assertEquals(valueExpected, result);
     }
 }
+

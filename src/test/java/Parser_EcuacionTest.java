@@ -1,8 +1,13 @@
+package src.test.java;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
+import src.main.java.Parser_Ecuacion;
 
+import static org.junit.jupiter.api.Assertions.*;
 
-public class ParseadorTest {
+class Parser_EcuacionTest {
+
 
     private final Parser_Ecuacion parseador = new Parser_Ecuacion();
 
