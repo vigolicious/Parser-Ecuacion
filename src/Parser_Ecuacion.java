@@ -1,7 +1,7 @@
 public class Parser_Ecuacion {
 
 
-    public int obtenerParte1(final String ecuacion) {
+    public int obtenerParte1(final  String ecuacion) {
         String[] partes1 = obtenerPartes12(ecuacion);
         String parte1 = partes1[0].trim();//elimina los espacion en blanco en ambos extremos del string
 
