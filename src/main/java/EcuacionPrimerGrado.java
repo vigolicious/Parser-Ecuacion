@@ -1,3 +1,6 @@
+package java;
+
+import java.Parser_Ecuacion;
 
 public class EcuacionPrimerGrado {
 
